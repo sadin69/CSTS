@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<!-- Required meta tags -->
+        <meta charset="utf-8">
+		
+		<!-- CSS Files -->
+        <link rel="stylesheet" href="assets/js/libraries/c3-0.7.1/c3.min.css">
+        <link rel="stylesheet" href="assets/css/libraries/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/welcome_page.css">
+        <link rel="stylesheet" href="assets/css/top_bar.css">
+        
+		<!-- JS Files -->
+        <script type="text/javascript" src="assets/js/libraries/d3.v5.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/c3-0.7.1/c3.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/jquery-3.3.1.slim.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/popper.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/DropdownService.js"></script>
+        
+		
+		<title>G3D3</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg static-top row">
+                <div class="navbar-brand"><a href="/"><img alt="Logo" src="assets/images/logo_v1.png"></a>
+                    <span>Course Selection Support</span>
+                </div>
+        </nav>
+        <div class="container-fuid">
+            <div class="row no-gutters">
+
+        </nav>
+                <div class="row">
+                <div class="sidebar col-2">
+                    <div class="sidebar__study-program"><h5><a href="#"></a></h5></div>
+                    
+                    <div class="sidebar__btn-course-detail">
+                        <button type="button" class="btn btn-course-detail" onclick="location.href='exam.html'">Exam Evulation</button></div>
+                    
+                   <div class="sidebar__btn-course-detail">
+                       <button type="button" class="btn btn-course-detail" onclick="location.href='student_atten.html'">Subject Enrolment</button></div>
+
+                    <div class="sidebar__btn-course-detail">
+                        <button type="button" class="btn btn-course-detail" onclick="location.href='enrol.html'">Courses Enrolment</button></div>
+
+                    
+                    <div class="sidebar__btn-course-detail">
+                        <button type="button" class="btn btn-course-detail" onclick="location.href='index.html'">Back</button></div>
+                    
+                            
+              </div>
+        </div>
+
+
+
+        
+        <script src="//d3js.org/d3.v3.min.js"></script>
+        <script>
+        
+        var width = 860,
+            height = 200;
+        
+        var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+        
+        svg.append("g")
+            .attr("transform", "translate(" + (width / 2) + "," + (height / 2) + ")")
+          .append("path")
+            .attr("d", d3.svg.symbol().type("cross").size(10000))
+            .each(cycle);
+        
+        function cycle() {
+          d3.select(this).transition()
+              .duration(2000)
+              .attrTween("transform", function() { return d3.interpolateString("rotate(0)", "rotate(720)"); })
+              .each("end", cycle);
+        }
+        
+        </script>
+    
+    
+    </body>
+</html>  

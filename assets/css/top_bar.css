@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #1f1f1f;
+}
+
+.navbar span {
+    color: white;
+    font-size: 0.5rem;
+    position: relative;
+}
+
+img {
+    width: 15rem;
+}

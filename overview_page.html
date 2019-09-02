@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<!-- Required meta tags -->
+        <meta charset="utf-8">
+		
+		<!-- CSS Files -->
+        <link rel="stylesheet" href="assets/js/libraries/c3-0.7.1/c3.min.css">
+        <link rel="stylesheet" href="assets/css/libraries/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/overview_page.css">
+        <link rel="stylesheet" href="assets/css/top_bar.css">
+        
+		<!-- JS Files -->
+        <script type="text/javascript" src="assets/js/libraries/d3.v5.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/c3-0.7.1/c3.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/jquery-3.3.1.slim.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/popper.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/DropdownService.js"></script>
+        <script type="text/javascript" src="assets/js/BarChartService.js"></script>
+        <script type="text/javascript" src="assets/js/BuildHrefService.js"></script>
+        <script type="text/javascript" src="assets/js/Helper.js"></script>
+		
+		<title>G3D3</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg static-top row">
+            <div class="navbar-brand">
+                <a onclick="location.href=BuildHrefService.buildHrefToIndex()"><img alt="Logo" src="assets/images/logo_v1.png"></a>
+                <span>Course Selection Support</span>
+            </div>
+        </nav>
+        <div class="container-fuid">
+            <div class="row no-gutters">
+
+                <!--sidebar-->
+                <div class="col-2">
+                    <div class="sidebar">
+                        <h6><a class="stdyprgr" onclick="location.href=BuildHrefService.buildHrefToOverview()"></a></h6>
+                        <select class="dropdown--select-course-details">
+                                <option value="" disabled selected>Select Course</option>
+                                <!--available courses here-->
+                        </select>
+                        <div class="sidebar__btn-course-detail">
+                            <button type="button" class="btn btn-course-detail" onclick="location.href=BuildHrefService.buildHrefFromSelection()">Show Details!</button>
+                        </div>
+
+                        <div class="sidebar__compare-courses">
+                            <!-- Dropdowns & button for course comparisons here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!--dashboard-->
+                <div class="col-10">
+                    <h2></h2>
+
+                    <!--charts-->
+                    <div class="row">
+                        <div class="col-5 offset-md-1">
+                            <div class="dashboard__chart">
+                                <select class="dropdown--attributs">
+                                    <!--available attributs here-->
+                                </select>
+                                <div id="chart1"></div>
+                                <a class="dashboard__show-link" onclick="location.href=BuildHrefService.buildHrefFromChart(att1)">Show more...</a>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="dashboard__chart">
+                                <select class="dropdown--attributs-two">
+                                    <!--available attributs here-->
+                                </select>
+                                <div id="chart2"></div>
+                                <a class="dashboard__show-link" onclick="location.href=BuildHrefService.buildHrefFromChart(att2)">Show more...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--filter-->
+                    <div class="row">
+                        <div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                            <symbol viewBox="0 0 24 24" id="expand-more">
+                                <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/><path d="M0 0h24v24H0z" fill="none"/>
+                            </symbol>
+                            <symbol viewBox="0 0 24 24" id="close">
+                                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/>
+                            </symbol>
+                            </svg>
+                        </div>
+
+                        <div class="col-10 offset-md-2">
+                            <details open class="filter-box">
+                                <summary>
+                                    Filters
+                                    <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+                                    <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+                                </summary>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <fieldset>
+                                            <p>Exam Style</p>
+                                            <form>
+                                                <ul>
+                                                    <li>
+                                                    <input type="radio" name="examStyle" value="oral">oral<br>
+                                                    </li>
+                                                    <li>
+                                                        <input type="radio" name="examStyle" value="written">written<br>
+                                                    </li>
+                                                    <li>
+                                                        <input type="radio" name="examStyle" value="presentation">presentation<br>
+                                                    </li>
+                                                    <li>
+                                                        <input type="radio" name="examStyle" value="report/scientific paper">report/paper<br>
+                                                    </li>
+                                                    <li>
+                                                        <input type="radio" name="examStyle" value="whatever" checked="checked">whatever<br>
+                                                    </li>
+                                                </ul>
+                                            </form>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-3">
+                                        <fieldset>
+                                            <p>Other</p>
+                                            <ul>
+                                                <li>
+                                                    <label><input type="checkbox" name="other" value="bonus points">bonus points</label>
+                                                </li>
+                                                <li>
+                                                    <label><input type="checkbox" name="other" value="excercises">excercises</label>
+                                                </li>
+                                            </ul>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-5 apply-filter">
+                                        <button type="button" class="btn btn-apply-filter" onclick="applyFilter(['#chart1', '#chart2'])">Apply Filter</button>
+                                    </div>
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            //setup
+            var studyprogram = Helper.getUrlParameter("studyprogram");
+            var targetdegree = Helper.getUrlParameter("targetdegree");
+            var attribut     = Helper.getUrlParameter("attribut");
+            var attributs    = Helper.getAttributs();
+            var filters      = []
+            if (!(localStorage.getItem("filters") === "" || localStorage.getItem("filters") === null)) {
+                var filters  = Helper.getFiltersFromString(localStorage.getItem("filters"));
+                Helper.checkInputs(filters);
+            } 
+            var courses = new Set();
+            $('h6 a').html(studyprogram);
+            var filteredData;
+
+            //retrieve data
+            d3.csv("assets/csv/prod.csv", function(row) {
+                return {
+                    studyprogram        : row.studyProgram,
+                    targetdegree        : row.targetDegree,
+                    coursename          : row.courseName,
+                    pacing              : row.pacing,
+                    organization        : row.organization,
+                    previousKnowledge   : row.previousKnowledge,
+                    difficulty          : row.difficulty,
+                    recommendation      : row.recommendation,
+                    grade               : row.grade,
+                    satisfaction        : row.satisfaction,
+                    overallQuality      : row.overallQuality,
+                    additionalExcercises: row.additionalExcercises,
+                    bonusPoints         : row.bonusPoints,
+                    examStyle           : row.examStyle,
+                    materials           : row.materials
+                };
+            }).then(function(data) {
+                filteredData = data.filter(function(row) { 
+                    if(row["studyprogram"] == studyprogram && row["targetdegree"] == targetdegree){
+                        courses.add(row["coursename"])
+                        return row;
+                    }
+                 })
+            
+                if (Array.from(courses).length == 0) {
+                    $('h2').html("There are no reviews for this studyprogram yet!")
+                } else {
+                    $('h2').html("Best Courses of your Study Program")
+                }
+
+                Helper.generateDropdowns(Array.from(courses).length);
+
+                //initialize Dropdowns
+                new DropdownService(Array.from(courses), 'select-course-details');
+                new DropdownService(Array.from(courses), 'select-course-to-compare').dependendChange();
+
+                att1 = new DropdownService(attributs, 'attributs', attributs[5]);
+                att2 = new DropdownService(attributs, 'attributs-two', attributs[4]);
+                att1Chart = new BarChartService(filteredData, '#chart1', Array.from(courses), false);
+                att1Chart.generateBarChart(att1.selected, filters);
+                att2Chart = new BarChartService(filteredData, '#chart2', Array.from(courses), false);
+                att2Chart.generateBarChart(att2.selected, filters); 
+            })
+
+            $('.dropdown--attributs').on('change', function() {
+                att1.setSelected();
+                att1Chart.generateBarChart(att1.getSelected());
+            })
+            $('.dropdown--attributs-two').on('change', function() {
+                att2.setSelected();
+                att2Chart.generateBarChart(att2.getSelected());
+            })
+
+            function applyFilter(selectors){
+                var filters = Helper.checkForFilters();
+                localStorage.setItem("filters", filters);
+                if(filters.length > 0) {
+                    att1Chart.generateBarChart(att1.selected, filters);
+                    att2Chart.generateBarChart(att2.selected, filters);
+                } else {
+                    localStorage.setItem("filters", "");
+                    att1Chart = new BarChartService(filteredData, selectors[0], Array.from(courses), false);
+                    att1Chart.generateBarChart(att1.selected);
+                    att2Chart = new BarChartService(filteredData, selectors[1], Array.from(courses), false);
+                    att2Chart.generateBarChart(att2.selected);
+                }
+                att1Chart.data = filteredData;
+                att2Chart.data = filteredData;
+            }     
+        </script>
+    </body>
+</html>  

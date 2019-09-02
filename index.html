@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bootstrap 4 Outline Buttons</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+
+
+<style>
+@import url(http://fonts.googleapis.com/css?family=Bitter:700);
+
+svg {
+  width: 850px;
+  height: 360px;
+  margin-top: 100px;
+}
+
+
+.red { fill: #e54e26; }
+.red-purple { fill: #7f1333; }
+.purple { fill: #694d9f; }
+.gray { fill: #474747; }
+.lightgray { fill: #a3a3a3; }
+
+.button{
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 400px 29px;
+      cursor: pointer;
+      margin: 400px 29px; 
+      position: absolute;
+      top: 50%;       
+    }
+
+
+</style>
+<!--Button-->
+<div button>
+
+<input type="button" class="btn btn-outline-primary btn-lg" value="Student" onclick="window.location.href='main.html'" /> 
+
+<input type="button" class="btn btn-outline-primary btn-lg" value="Teacher" onclick="window.location.href='teacher.html'" /> 
+<input type="button" class="btn btn-outline-primary btn-lg" value="About" onclick="window.location.href='about.html'" />
+</div>
+
+<svg viewBox="0 00 100 172" width="190" height="172">
+  <defs>
+    <path id="line-long" d="m-15.5,0v85a15.5,15.5 0 0 0 31,0v-85a15.5,15.5 0 0 0 -31,0zm9,0a6.5,6.5 0 0,0 13,0a6.5,6.5 0 0,0 -13,0zm0,85a6.5,6.5 0 0,0 13,0a6.5,6.5 0 0,0 -13,0z" fill-rule="evenodd"></path>
+    <path id="line-short1" d="m-15.5,0v60.81118318204309a15.5,15.5 0 0 0 31,0v-60.81118318204309a15.5,15.5 0 0 0 -31,0zm9,0a6.5,6.5 0 0,0 13,0a6.5,6.5 0 0,0 -13,0zm0,60.81118318204309a6.5,6.5 0 0,0 13,0a6.5,6.5 0 0,0 -13,0z" fill-rule="evenodd"></path>
+    <path id="line-short2" d="m-15.5,0v60.81118318204309a10.5,15.5 0 0 0 31,0v-60.81118318204309a10.5,15.5 0 0 0 -31,0zm9,0a6.5,6.5 0 0,0 13,0a6.5,6.5 0 0,0 -13,0zm0,60.81118318204309a6.5,6.5 0 0,0 13,0a6.5,6.5 0 0,0 -13,0z" fill-rule="evenodd"></path>
+    <path id="line-short3" d="m-15.5,0v60.81118318204309a15.5,15.5 0 0 0 31,0v-60.81118318204309a15.5,15.5 0 0 0 -31,0zm9,0a6.5,6.5 0 0,0 13,0a6.5,6.5 0 0,0 -13,0zm0,60.81118318204309a6.5,6.5 0 0,0 13,0a6.5,6.5 0 0,0 -13,0z" fill-rule="evenodd"></path>
+    <path id="line-short4" d="m-15.5,0v60.81118318204309a15.1,15.5 0 0 0 31,0v-40.81118318204309a15.5,10.5 0 0 0 -31,0zm9,0a6.5,6.5 0 0,0 0,0a6.5,6.5 00 0,0 0,0zm0,60.81118318204309a6.5,6.5 0 0,0 13,0a6.5,6.5 0 0,0 -13,0z" fill-rule="evenodd"></path>
+    <clipPath id="clip-orange-red"><use transform="translate(52,19)" xlink:href="#line-long"></use></clipPath>
+    <clipPath id="clip-red-purple"><use transform="translate(52,104)rotate(-135)" xlink:href="#line-short"></use></clipPath>
+    <clipPath id="clip-purple-cyan"><use transform="translate(138,19)" xlink:href="#line-long"></use></clipPath>
+  </defs>
+  
+  <g transform="translate(-.5,-.5)">
+    <use transform="translate(52,19)" xlink:href="#line-long" class="red"></use>
+    <use transform="translate(52,104)rotate(-90)" xlink:href="#line-short1" class="red"></use>
+    <use transform="translate(113,43)" xlink:href="#line-short4" class="red"></use>
+    <use transform="translate(113,19)rotate(90)" xlink:href="#line-short2" class="red"></use>
+    
+    <use transform="translate(230,19)" xlink:href="#line-long" class="purple"></use>
+    <use transform="translate(170,104)rotate(-90)" xlink:href="#line-short2" class="purple"></use>
+    <use transform="translate(230,19)rotate(90)" xlink:href="#line-short2" class="purple"></use>
+    <use transform="translate(230,60)rotate(90)" xlink:href="#line-short3" class="purple"></use>
+
+    
+    <text x="115" y="150" text-anchor="middle" font-family="Bitter" font-size="20" font-weight="bold" class="gray">Course<tspan class="lightgray">Selection</tspan></text>
+    <text x="145" y="170" text-anchor="middle" font-family="Bitter" font-size="15" font-weight="bold" class="gray">Teaching<tspan class="lightgray">Strategy</tspan></text>
+
+
+  </g>
+</svg>
+
+</head>

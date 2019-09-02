@@ -1,0 +1,246 @@
+#chart {
+    width: 80%;
+}
+
+.c3-axis-x-label {
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.2rem;
+}
+
+h2 {
+    margin: 2rem;
+    text-align: center;
+}
+
+.col-2 {
+  background-color:#F4F4F4;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.sidebar__compare-courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.dropdown {
+    background-color: white;
+    border: 0.1rem solid grey;
+}
+
+.dropdown-toggle::after {
+    margin-left: 4.255rem;
+}
+
+h6 {
+    margin-bottom: 2rem;
+}
+
+a:not([href]):not([tabindex]).stdyprgr {
+    color: black;
+}
+
+h6 > a:hover {
+    text-decoration: underline;
+    color: #be0c21;
+}
+
+h6 > a:active {
+    text-decoration: underline;
+    color: #be0c21;
+}
+
+.btn {
+  font-size: 0.7rem;
+}
+
+.sidebar__btn-course-detail > .btn-course-detail, .sidebar__btn-compare-courses > .btn-compare-courses {
+    background-color: #80141D;
+    color: white;
+    margin-bottom: 3rem;
+    width: 8rem;
+}
+
+.sidebar__btn-course-detail > .btn-course-detail:hover, .btn-apply-filter:hover, .sidebar__btn-compare-courses > .btn-compare-courses:hover  {
+    background-color: #be0c21;
+    color: white;
+}
+
+select {
+    border-color: #F1F1F1;
+}
+
+.compare-info {
+  font-size: 0.5rem; 
+}
+
+.dropdown--attributs, .dropdown--attributs-two {
+    margin-bottom: 3rem;
+    height: 2.7rem;
+    border: 0.1rem solid #F1F1F1;
+    padding: 0.5rem;
+    width: 70%;
+}
+
+.dropdown--attributs:active {
+    border: 0.1rem solid #F1F1F1;
+}
+
+#chart1, #chart2 {
+    margin-right: 4rem;
+}
+
+.dashboard__chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.btn-apply-filter {
+    background-color: #80141D;
+    color: white;
+}
+
+a:not([href]):not([tabindex]) {
+    color: #be0c21;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:not([href]):not([tabindex]):hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+    
+ ul {
+	list-style-type: none;
+	padding-left: 0;
+  margin: 0; 
+} 
+
+details {
+    padding: 2rem;
+    position: relative;
+    font-size: 1rem;
+    /* border: 1px solid rgba(0,0,0,.1); */
+    /* border-radius: 15px; */
+    box-sizing: border-box;
+    transition: all .3s;
+    width:80%;
+    background-color: #F4F4F4
+  }
+  
+  details + details {
+    margin-top: 20px;
+  }
+  
+  details[open] {
+    background-color: #F4F4F4;
+  }
+  
+  details p {
+    color:  #96999d;
+    font-weight: 200;
+    font-size: inherit;
+  }
+  
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  summary:focus {
+    outline: none;
+    /* box-shadow: 0 0 0 4px #f6f7f8, 0 0 0 5px rebeccapurple; */
+  }
+  
+  summary::-webkit-details-marker {
+    display: none
+  }
+  
+  .control-icon {
+    transition: .3s ease;
+    pointer-events: none;
+  }
+  
+  .control-icon-close {
+    display: none;
+  }
+  
+  details[open] .control-icon-close {
+    display: initial;
+    transition: .3s ease;
+  }
+  
+  details[open] .control-icon-expand {
+    display: none;
+  }
+  
+  details[open] summary:hover::after {
+    animation: pulse 1s ease;
+  }
+
+  .apply-filter {
+      align-self: center;
+  }
+
+  .filter-box{
+      padding-left: 4rem;
+      padding-right: 4rem;
+  }
+  
+  @keyframes pulse {
+    25% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    h2 {
+        margin-top: 3rem;
+        margin-bottom:3rem;
+    }
+
+    select {
+        padding: 0.5rem;
+    }
+
+    .sidebar {
+        height: 100vh;
+    }
+
+    .btn {
+      font-size: 1rem;
+    }
+
+    .sidebar__btn-course-detail > .btn-course-detail, .sidebar__btn-compare-courses > .btn-compare-courses {
+      width: 10rem;
+  }
+
+  }

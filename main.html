@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<!-- Required meta tags -->
+        <meta charset="utf-8">
+		
+		<!-- CSS Files -->
+        <link rel="stylesheet" href="assets/js/libraries/c3-0.7.1/c3.min.css">
+        <link rel="stylesheet" href="assets/css/libraries/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/welcome_page.css">
+        <link rel="stylesheet" href="assets/css/top_bar.css">
+        
+		<!-- JS Files -->
+        <script type="text/javascript" src="assets/js/libraries/d3.v5.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/c3-0.7.1/c3.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/jquery-3.3.1.slim.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/popper.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/DropdownService.js"></script>
+        <script type="text/javascript" src="assets/js/BuildHrefService.js"></script>
+        
+		
+		<title>G3D3</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg static-top row">
+                <div class="navbar-brand">
+                    <a href="/"><img alt="Logo" src="assets/images/logo_v1.png"></a>
+                    <span>Course Selection Support</span>
+                </div>
+            </nav>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Welcome!</h1>
+                <p>This is the <b>Course Selection Service</b> of the University of Duisburg-Essen!
+                <br/>
+                Enter your study program and target degree and get started!</p>
+            </div>
+            <div class="selection">
+                <div class="selection__part">
+                    <p>Select your study program:</p>
+                    <select class="dropdown--study-program">
+                        <!--study programs from csv here-->
+                    </select>
+                </div>
+                <div class="selection__part">
+                    <p>Select your target degree:</p>
+                    <select class="dropdown--target-degree">
+                        <!--target degrees here-->
+                    </select>
+                </div>
+            </div>
+            <button type="button" class="btn selection__submit" onclick="location.href=BuildHrefService.buildHrefFromSelectionIndex()">Find Courses!</button>
+        </div>              
+		
+        <script>
+            //setup
+            var studyprograms = new Set();
+            var degrees = new Set();
+
+            //retrieve data
+            $(document).ready(
+                d3.csv("assets/csv/prod.csv", function(row) {
+                    return {
+                        studyprogram : row.studyProgram,
+                        targetdegree : row.targetDegree
+                    };
+                }).then(function(data) {
+                    data.filter(function(row) {
+                        studyprograms.add(row['studyprogram']);
+                        degrees.add(row['targetdegree']);
+                    })
+                    //initialize the dropdowns
+                    new DropdownService(Array.from(studyprograms), 'study-program');
+                    new DropdownService(Array.from(degrees), 'target-degree');
+                })
+            );
+        </script>
+    </body>
+</html>  

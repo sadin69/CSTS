@@ -1,0 +1,77 @@
+studyProgram,targetDegree,courseName,additionalExcercises,bonusPoints,attendance,organization,pacing,instructions,activities,usefulnessMaterials,overallQuality,satisfaction,previousKnowledge,difficulty,examStyle,materials,grade,recommendation
+Angewandte Kognitions- und Medienwissenschaften,Master,Fortgeschrittene Programmiertechniken,No,Yes,often,Good,Good,Good,Fair,Bad,Good,Agree,Agree,hard,written,presentation slides,1.0,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Fortgeschrittene Programmiertechniken,No,Yes,often,Good,Bad,Bad,Fair,Bad,Good,Agree,Agree,hard,written,"presentation slides,video", 1.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Fortgeschrittene Programmiertechniken,No,Yes,never,Good,Fair,Fair,Fair,Good,Good,Agree,Agree,hard,written,"presentation slides,video",2.5,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Fortgeschrittene Programmiertechniken,No,Yes,often,Good,Good,Good,Fair,Bad,Good,Agree,Disagree,hard,written,"presentation slides,video",1.0,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,WebTechnologie,Yes,No,never,Good,Good,Good,Fair,Bad,Good,Agree,Disagree,hard,written,"presentation slides,books",1.0,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,WebTechnologie,Yes,No,often,Good,Good,Good,Fair,Bad,Good,Agree,Disagree,hard,written,"presentation slides,books",4.0,No
+Angewandte Kognitions- und Medienwissenschaften,Master,WebTechnologie,Yes,No,often,Good,Good,Good,Good,Good,Good,Agree,Disagree,low,written,"presentation slides,books",1.0,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Interaktive Systeme,Yes,Yes,often,Good,Good,Good,Fair,Bad,Good,Agree,Agree,hard,written,"presentation slides,books",1.0,Yes
+Applied Computer Science,Master,Kurs 2,Yes,Yes,sometimes,Fair,Fair,Fair,Fair,Bad,Good,Agree,Disagree,low,written,presentation slides,4.0,No
+Applied Computer Science,Master,Kurs 3,Yes,Yes,often,Good,Good,Good,Fair,Bad,Good,Agree,Disagree,hard,written,presentation slides,3.0,Yes
+Applied Computer Science,Master,Kurs 3,Yes,Yes,often,Good,Good,Good,Fair,Bad,Good,Agree,Disagree,hard,written,presentation slides,1.0,Yes
+Applied Computer Science,Master,Kurs 2,Yes,Yes,often,Good,Good,Good,Fair,Bad,Good,Agree,Disagree,hard,written,presentation slides,1.0,Yes
+Applied Computer Science,Master,Kurs 1,Yes,Yes,often,Good,Good,Good,Fair,Bad,Good,Agree,Disagree,hard,written,presentation slides,1.0,Yes
+Applied Computer Science,Master,Kurs 2,Yes,Yes,sometimes,Fair,Fair,Fair,Fair,Bad,Good,Agree,Disagree,low,written,presentation slides,4.0,No
+Applied Computer Science,Master,Kurs 3,Yes,Yes,often,Good,Good,Good,Fair,Bad,Good,Agree,Disagree,hard,written,presentation slides,3.0,Yes
+Applied Computer Science,Master,Kurs 3,Yes,Yes,often,Good,Good,Good,Fair,Bad,Good,Agree,Disagree,hard,written,presentation slides,1.0,Yes
+Applied Computer Science,Master,Kurs 2,Yes,Yes,often,Good,Good,Good,Fair,Bad,Good,Agree,Disagree,hard,written,presentation slides,1.0,Yes
+Applied Computer Science,Master,Kurs 1,Yes,Yes,often,Good,Good,Good,Fair,Bad,Good,Agree,Disagree,hard,written,presentation slides,1.0,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Psycho1,Yes,Yes,sometimes,Bad,Good,Fair,Bad,Good,Good,Agree,Agree,low,oral,books,3.0,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Psycho1,Yes,Yes,sometimes,Bad,Good,Fair,Good,Good,Good,Agree,Agree,hard,oral,books,2.0,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Psycho1,Yes,Yes,never,Bad,Good,Fair,Fair,Fair,Good,Disagree,Neutral,hard,oral,books,2.0,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Psycho1,Yes,Yes,never,Bad,Good,Fair,Fair,Fair,Good,Disagree,Neutral,hard,oral,books,2.0,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Psycho1,Yes,Yes,never,Bad,Good,Fair,Fair,Fair,Fair,Disagree,Disagree,hard,oral,books,2.0,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Psycho2,No,No,never,Bad,Good,Fair,Fair,Fair,Good,Disagree,Neutral,hard,oral,books,1.0,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Psycho2,No,No,never,Bad,Good,Fair,Fair,Fair,Good,Disagree,Neutral,hard,oral,books,1.0,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Psycho2,No,No,never,Bad,Good,Fair,Fair,Fair,Bad,Disagree,Neutral,hard,oral,books,1.0,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Psycho2,No,No,never,Bad,Good,Fair,Fair,Fair,Good,Disagree,Agree,hard,oral,books,1.0,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Psycho2,No,No,never,Bad,Good,Fair,Fair,Fair,Bad,Disagree,Agree,hard,oral,books,1.0,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Recommender,Yes,No,never,Bad,Good,Fair,Fair,Fair,Good,Disagree,Disagree,hard,oral,books,1.0,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Recommender,Yes,No,never,Bad,Good,Fair,Fair,Fair,Bad,Disagree,Disagree,hard,oral,books,1.5,No
+bla,Master,Recommender,Yes,No,never,Bad,Good,Fair,Fair,Fair,Bad,Disagree,Disagree,hard,oral,books,1.5,No
+blub,Master,Recommender,Yes,No,never,Bad,Good,Fair,Fair,Fair,Bad,Disagree,Disagree,hard,oral,books,1.5,No
+
+
+
+Programmierparadigmen	Yes (they were voluntary)	Yes	Fair	Fair	Fair	Disagree	Neutral	hard	written	presentation sheets					4	Yes	
+Berechenbarkeit und Komplexität	Yes (they were voluntary)	Yes	Good	Fair	Fair	Disagree	Neutral	hard	written	presentation sheets		video (of the lecture/course)			03. Jul	No	
+Rechnerarchitektur	No	No	Fair	Good	Fair	Neutral	Neutral	hard	written	presentation sheets					03. Mrz	No		
+Angewandte Informatik,Master,Modellierung, Analyse, Verifikation	Yes (they were voluntary)	Yes	Good	Good	Good	Agree	Neutral	hard	written	presentation sheets					02. Jul	Yes	
+Learning Analytics	Yes (they were mandatory)	Yes	Good	Fair	Good	Agree	Agree	just right	oral	presentation sheets					01. Jul	Yes	
+Internet of Things	Yes (they were voluntary)	Yes	Fair	Fair	Fair	Neutral	Neutral	just right	written	presentation sheets					02. Mrz	Yes	
+Peer-to-Peer Systeme	Yes (they were voluntary)	Yes	Fair	Fair	Fair	Neutral	Neutral	just right	written	presentation sheets					03. Mrz	Yes		
+Angewandte Informatik,Master,Sensornetze	No	No	Fair	Good	Fair	Agree	Neutral	just right	written	presentation sheets					02. Jul	Yes	
+Interaktive Systeme	Yes (they were voluntary)	Yes	Good	Fair	Fair	Neutral	Agree	hard	written	presentation sheets					3	No	
+Digitale Spiele	Yes (they were mandatory)	Yes	Fair	Good	Fair	Agree	Neutral	hard	written	presentation sheets					03. Jul	No	
+Recommender Systeme	Yes (they were voluntary)	Yes	Good	Good	Fair	Agree	Agree	just right	written	presentation sheets					02. Mrz	Yes		
+Angewandte Informatik,Master,Advanced Web Technologies	Yes (they were mandatory)	Yes	Good	Good	Good	Agree	Agree	hard	oral	presentation sheets					2	Yes	
+Information Retrieval	Yes (they were voluntary)	Yes	Fair	Fair	Fair	Agree	Agree	just right	written	presentation sheets					02. Jul	Yes	
+Information Engineering	Yes (they were voluntary)	Yes	Fair	Fair	Good	Agree	Neutral	just right	oral	presentation sheets					3	Yes	
+Distributed Systems	No	No	Fair	Fair	Fair	Neutral	Neutral	hard	written	presentation sheets		video (of the lecture/course)			3	No		
+Angewandte Informatik,Master,Information Mining	Yes (they were voluntary)	Yes	Fair	Fair	Good	Agree	Agree	just right	written	presentation sheets					02. Jul	Yes	
+Scientific Visualization	Yes (they were voluntary)	Yes	Fair	Poor	Fair	Agree	Neutral	hard	written	presentation sheets					03. Jul	No	Computer Graphics	No	No	Fair	Poor	Fair	Disagree	Disagree	hard	oral	presentation sheets					4	No	Optische Netze	Yes (they were voluntary)	Yes	Fair	Fair	Fair	Neutral	Neutral	hard	written	presentation sheets					03. Jul	No		
+Angewandte Informatik,Master,Kognitive Technische Systeme	No	No	Fair	Fair	Fair	Neutral	Disagree	hard	written	presentation sheets					03. Jul	No	
+Logistische Informationssysteme	No	No	Poor	Poor	Poor	Disagree	Disagree	hard	written	presentation sheets					4	No	
+Electronic communities and social networks	Yes (they were voluntary)	Yes	Good	Fair	Good	Agree	Agree	just right	written	presentation sheets		video (of the lecture/course)			02. Jul	Yes	
+Cloud, Web & Mobile	Yes (they were voluntary)	Yes	Good	Fair	Fair	Neutral	Neutral	just right	written	presentation sheets					3	Yes		
+Angewandte Kognitions und Medienwissenschaft	,Master,	Fortgeschrittene Programmiertechniken	Yes (they were voluntary)	Yes	Fair	Fair	Good	Agree	Agree	just right	written	presentation sheets					02. Jul	Yes	
+Entwicklung sicherer Software	Yes (they were voluntary)	Yes	Good	Good	Good	Agree	Neutral	just right	written	presentation sheets					2	Yes	
+Internet-Technologie & Web Engineering	Yes (they were voluntary)	Yes	Fair	Fair	Good	Neutral	Agree	just right	written	presentation sheets					02. Jul	Yes	
+Computer Graphics	Yes (they were voluntary)	No	Fair	Fair	Fair	Agree	Agree	hard	oral	presentation sheets					02. Jul	Yes		
+Angewandte Informatik,Master,Electronic communities and social networks	Yes (they were voluntary)	No	Good	Good	Good	Agree	Agree	low	written	presentation sheets		video (of the lecture/course)			01. Jul	Yes	
+Logistische Informationssysteme	No	No	Poor	Poor	Fair	Neutral	Neutral	hard	written	presentation sheets					03. Jul	No	
+Information Mining	Yes (they were voluntary)	Yes	Fair	Poor	Fair	Agree	Neutral	hard	written	presentation sheets					03. Mrz	No	
+Information Engineering	Yes (they were voluntary)	Yes	Poor	Fair	Fair	Disagree	Disagree	just right	oral	presentation sheets					3	Yes		
+Angewandte Informatik,Master,Information Engineering	Yes (they were voluntary)	Yes	Good	Good	Good	Agree	Neutral	just right	oral	presentation sheets					02. Jul	Yes	
+Information Mining	Yes (they were voluntary)	Yes	Poor	Fair	Good	Agree	Agree	just right	written	presentation sheets					01. Jul	Yes	
+Information Retrieval	Yes (they were voluntary)	Yes	Fair	Fair	Good	Agree	Agree	just right	written	presentation sheets					02. Mrz	Yes	
+Computer Graphics	Yes (they were voluntary)	No	Fair	Poor	Fair	Neutral	Neutral	hard	oral	presentation sheets					4	No		
+Angewandte Informatik	Bachelor	Programmierparadigmen	Yes (they were voluntary)	Yes	Good	Fair	Fair	Neutral	Neutral	just right	written	presentation sheets					3	Yes	
+Berechenbarkeit und Komplexität	Yes (they were voluntary)	Yes	Good	Good	Fair	Agree	Disagree	just right	written	presentation sheets		video (of the lecture/course)			02. Jul	Yes	
+Logik	Yes (they were voluntary)	Yes	Good	Fair	Fair	Agree	Agree	low	written	presentation sheets					02. Mrz	Yes	
+Automaten und Formale Sprachen	Yes (they were voluntary)	Yes	Good	Fair	Fair	Agree	Neutral	just right	written	presentation sheets					02. Jul	Yes		
+Angewandte Informatik	Bachelor	Logik	Yes (they were voluntary)	Yes	Good	Good	Good	Neutral	Agree	just right	written	presentation sheets					3	Yes	
+Programmieren in C/C++	Yes (they were voluntary)	Yes	Fair	Fair	Fair	Neutral	Agree	just right	written	presentation sheets					02. Jul	Yes	
+Berechenbarkeit und Komplexität	Yes (they were voluntary)	Yes	Fair	Good	Fair	Neutral	Neutral	hard	written	presentation sheets		video (of the lecture/course)			03. Mrz	No	
+Rechnerarchitektur	No	No	Fair	Fair	Fair	Agree	Disagree	hard	written	presentation sheets					03. Jul	No		

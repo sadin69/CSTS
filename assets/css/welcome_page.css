@@ -1,0 +1,112 @@
+.navbar {
+    margin-bottom: 3rem;
+}
+
+.jumbotron {
+    padding-top: 3rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.jumbotron p {
+    letter-spacing: -1px;
+    font-size: 2rem;
+}
+
+.selection {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+
+}
+
+
+.selection__part {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: 40%;
+}
+    
+.selection__part p {
+    font-size: 1.5rem;
+}
+    
+.dropdown {
+    border: 0.1rem solid grey;
+}
+
+
+.dropdown-toggle::after {
+        margin-left: 16.255rem;
+    }
+
+.dropdown-toggle-menu {
+    min-width: 100%;
+    }
+
+.btn:hover {
+    background-color: #be0c21;
+    color: white;
+}
+
+.selection__submit {
+    /* background-color: #80141D; */
+    background-color: #80141D;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin-left: 40%;
+}
+
+
+select {
+    border-color: #F1F1F1;
+}
+
+.dropdown--study-program, .dropdown--target-degree {
+    height: 2.7rem;
+    border: 0.1rem solid #F1F1F1;
+    padding: 0.5rem;
+}
+
+@media only screen and (max-width: 1500px) {
+    .jumbotron p {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        max-width: 960px;
+    }
+
+    .jumbotron {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .selection__part p {
+        font-size: 1rem;
+    }
+
+    .selection__submit {
+        font-size: 1rem;
+        padding: 1rem 1rem;
+    }
+
+    .selection {
+        margin-bottom: 2rem;
+    
+    }
+
+  }
+
+
+

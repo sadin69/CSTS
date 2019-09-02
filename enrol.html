@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+               	<!-- Required meta tags -->
+        <meta http-equiv="Content-Type" conten="test/html; charset=utf-8"/>
+		
+		<!-- CSS Files -->
+        <link rel="stylesheet" href="assets/js/libraries/c3-0.7.1/c3.min.css">
+        <link rel="stylesheet" href="assets/css/libraries/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/overview_page.css">
+        <link rel="stylesheet" href="assets/css/top_bar.css">
+        <link rel="stylesheet" href="assets/css/overview_page.css">
+        <link rel="stylesheet" href="assets/css/detail_page.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+		<!-- JS Files -->
+        <script type="text/javascript" src="assets/js/libraries/d3.v5.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/c3-0.7.1/c3.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/jquery-3.3.1.slim.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/popper.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/DropdownService.js"></script>
+        <script type="text/javascript" src="assets/js/Helper.js"></script>
+        <script type="text/javascript" src="assets/js/PieChartService.js"></script>
+        <script type="text/javascript" src="modernizr.js"></script>
+        
+        <title>G3D3</title>
+    </head>
+    
+    
+    <body>
+        <nav class="navbar navbar-expand-lg static-top row">
+            <div class="navbar-brand">
+                <a onclick="location.href=buildHrefToIndex()"><img alt="Logo" src="assets/images/logo_v1.png"></a>
+                <span>Course Selection Support</span>
+            </div>
+        </nav>
+        <div class="container-fuid">
+            <div class="row no-gutters">
+                
+       
+<style>
+body{
+    width:1060px;
+    margin:50px auto;
+}
+path {  stroke: #fff; }
+path:hover {  opacity:0.9; }
+rect:hover {  fill:blue; }
+.axis {  font: 10px sans-serif; }
+.legend tr{    border-bottom:1px solid grey; }
+.legend tr:first-child{    border-top:1px solid grey; }
+.rectangle {    fill: steelblue;}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {  display: none; }
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
+.legendFreq, .legendPerc{
+    align:right;
+    width:50px;
+}
+
+</style>
+</head>
+
+<body>
+<div id="drop" align=left></div>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+var barColor = 'steelblue';
+
+var hg={},  margin = {top: 50, right: 10, bottom: 120, left: 90};
+    width = 500 - margin.left - margin.right, 
+    height = 300 - margin.top - margin.bottom;
+
+var svg = d3.select("body").append("svg")
+	.attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom).append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    
+    // read data
+d3.csv("assets/csv/dataset.csv", function(error, data){
+
+	// filter year
+    var data = data.filter(function(d){return d.Year == '2019';});
+    
+	// Get every column value
+	var elements = Object.keys(data[0])
+		.filter(function(d){
+			return ((d != "Year") & (d != "Subject"));
+		});
+	var selection = elements[0];
+
+	var y = d3.scale.linear()
+			.domain([0, d3.max(data, function(d){
+				return +d[selection];
+			})])
+			.range([height, 0]);
+
+	var x = d3.scale.ordinal()
+			.domain(data.map(function(d){ return d.Subject;}))
+			.rangeBands([0, width]);
+
+
+	var xAxis = d3.svg.axis()
+		.scale(x)
+	    .orient("bottom").ticks(7);
+
+	var yAxis = d3.svg.axis()
+		.scale(y)
+	    .orient("left");
+
+    //add X-axis to the histogram svg.
+	svg.append("g").attr("class", "x axis")
+    	.attr("transform", "translate(0," + height + ")")
+    	.call(xAxis).selectAll("text")
+    	.style("font-size", "12px").style("text-anchor", "end")
+      	.attr("dx", "-.8em").attr("dy", "-.55em").attr("transform", "rotate(-90)" );
+
+
+ 	svg.append("g")
+    	.attr("class", "y axis")
+        .call(yAxis);
+        
+    //create bar for histogram to contain rectangles and freq labels
+	svg.selectAll("rectangle")
+		.data(data)
+		.enter()
+		.append("rect")
+		.attr("class","rectangle")
+		.attr("width", width/data.length)
+		.attr("height", function(d){
+			return height - y(+d[selection]);
+		})
+		.attr("x", function(d, i){
+			return (width / data.length) * i ;
+		})
+		.attr("y", function(d){
+			return y(+d[selection]);
+		})
+		.append("title")
+		.text(function(d){
+			return d.Department + " : " + d[selection];
+    	});
+    
+	  
+              
+        
+	var selector = d3.select("#drop")
+    	.append("select")
+    	.attr("id","dropdown")
+    	.on("change", function(d){
+    		selection = document.getElementById("dropdown");
+        	y.domain([0, d3.max(data, function(d){
+				return +d[selection.value];})]);
+
+        	yAxis.scale(y);
+
+        	d3.selectAll(".rectangle")
+           		.transition()
+	            .attr("height", function(d){
+					return height - y(+d[selection.value]);
+				})
+				.attr("x", function(d, i){
+					return (width / data.length) * i ;
+				})
+				.attr("y", function(d){
+					return y(+d[selection.value]);
+				})
+           		.ease("linear")
+           		.select("title")
+           		.text(function(d){
+           			return d.Department + " : " + d[selection.value];
+           		});
+      
+           	d3.selectAll("g.y.axis")
+           		.transition()
+           		.call(yAxis);
+
+         });
+
+    selector.selectAll("option")
+      .data(elements)
+      .enter().append("option")
+      .attr("value", function(d){
+        return d;
+      })
+      .text(function(d){
+        return d;
+      })
+
+
+});
+</script>
+
+</body>
+<input type="button" class="btn btn-outline-primary btn-lg" value="Back" onclick="window.location.href='teacher.html'" />  
+
+</html>
+	

@@ -1,0 +1,126 @@
+studyProgram,targetDegree,courseName,additionalExcercises,bonusPoints,organization,pacing,overallQuality,satisfaction,previousKnowledge,difficulty,examStyle,materials,grade,recommendation
+Angewandte Kognitions- und Medienwissenschaften,Master,Fortgeschrittene Programmiertechniken,Yes,Yes,Good,Good,Good,Agree,Neutral,hard,written,presentation sheets,1,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Electronic Buisness,Yes,Yes,Fair,Fair,Fair,Disagree,Disagree,low,written,presentation sheets,1.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Angewandte Kognitionspsychologie 2,No,No,Fair,Fair,Fair,Neutral,Neutral,low,written,presentation sheets,1.7,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Interactive Systems,Yes,Yes,Fair,Good,Good,Disagree,Disagree,low,written,presentation sheets,1,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Recommender Systems,Yes,No,Good,Good,Good,Agree,Disagree,just right,written,presentation sheets,1.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Fortgeschrittene Programmiertechniken,Yes,Yes,Good,Good,Good,Agree,Neutral,just right,written,"presentation sheets,books",1,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Inferenzstatistik,Yes,No,Good,Fair,Good,Agree,Neutral,hard,written,"presentation sheets,books",1.7,Yes		
+Angewandte Kognitions- und Medienwissenschaften,Master,Business Communications,No,No,Good,Good,Good,Agree,Neutral,just right,oral,presentation sheets,1.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,"Cloud, Web, Mobile",Yes,No,Good,Good,Good,Agree,Neutral,just right,written,"presentation sheets,video",1,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Knowledge based Systems,Yes,No,Good,Fair,Good,Agree,Neutral,just right,oral,"presentation sheets,books",1,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Internet Technology and web engineering,Yes,Yes,Good,Good,Good,Agree,Disagree,low,written,"presentation sheets,video",1,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Recommender Systems,Yes,No,Good,Good,Good,Agree,Disagree,just right,written,presentation sheets,1.3,Yes
+Computer Engineering,Master,Advance web,Yes,Yes,Good,Good,Good,Agree,Agree,just right,oral,"presentation sheets,other",1.7,Yes
+Computer Engineering,Master,L.A,Yes,Yes,Good,Good,Good,Agree,Neutral,low,oral,presentation sheets,2.3,Yes
+Computer Engineering,Master,Interactive system,Yes,No,Good,Good,Good,Agree,Neutral,hard,written,presentation sheets,2,Yes
+Computer Engineering,Master,Social networks,Yes,Yes,Good,Good,Fair,Agree,Disagree,just right,written,"presentation sheets,video",2,Yes
+Computer Engineering,Master,German language,Yes,Yes,Bad,Bad,Bad,Neutral,Neutral,just right,written,"presentation sheets,books",2,No
+Computer Science,Master,Soft Computing,No,Yes,Bad,Fair,Fair,Disagree,Neutral,just right,oral,books,2.3,No
+Logistic,Master,Arbeitswisenschaft,Yes,No,Fair,Fair,Fair,Disagree,Neutral,just right,written,"presentation sheets,books",3.5,Yes
+Computer Engineering,Master,Information retrieval,Yes,No,Good,Fair,Good,Agree,Agree,just right,oral,presentation sheets,1.7,Yes
+Computer Sciences,Master,Advance Web Technology,Yes,No,Fair,Good,Fair,Agree,Agree,hard,oral,"presentation sheetsbooks,video,audio",2.3,Yes
+Interactive system,Master,Social network,No,Yes,Good,Fair,Good,Agree,Neutral,just right,written,"presentation sheets,video",2,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Grundlagen künstlicher Intelligenz,Yes,Yes,Good,Fair,Good,Neutral,Agree,hard,written,"presentation sheets,books",1.3,Yes
+Angewandte Informatik,Master,Internet of Things,Yes,Yes,Good,Fair,Fair,Neutral,Agree,hard,written,presentation sheets,3.3,No
+Angewandte Informatik,Master,Internet of Things,Yes,Yes,Good,Good,Fair,Neutral,Agree,just right,written,presentation sheets,3,No
+Angewandte Informatik,Master,Internet of Things,Yes,Yes,Fair,Bad,Fair,Agree,Neutral,hard,written,presentation sheets,3.3,No
+Angewandte Informatik,Master,Internet of Things,Yes,Yes,Fair,Fair,Fair,Agree,Neutral,hard,written,presentation sheets,4,No
+Computer Sciences,Master,Information Retrieval,Yes,Yes,Good,Fair,Good,Agree,Agree,just right,written,presentation sheets,2.3,Yes
+Computer Sciences,Master,Information Mining,Yes,Yes,Good,Good,Good,Agree,Agree,just right,written,presentation sheets,2.7,Yes
+Computer Sciences,Master,Incormation Engineering,Yes,Yes,Good,Fair,Good,Agree,Neutral,just right,oral,presentation sheets,3.3,Yes
+Computer Sciences,Master,Distributed Systems,No,No,Fair,Good,Fair,Neutral,Disagree,hard,written,"presentation sheets,video",3.3,No
+BWL,Master,Statistik1,Yes,Yes,Good,Bad,Fair,Neutral,Agree,just right,written,presentation sheets,3.7,No
+BWL,Master,Jahresabschluss,Yes,Yes,Good,Good,Good,Neutral,Agree,just right,written,presentation sheets,1.7,Yes
+BWL,Master,Personalmanagement,Yes,No,Fair,Bad,Fair,Neutral,Disagree,hard,written,presentation sheets,3.7,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Softwaretechnik,Yes,Yes,Fair,Good,Good,Neutral,Neutral,just right,written,presentation sheets,2.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Fortgeschrittene Programmiertechniken,Yes,Yes,Good,Fair,Fair,Neutral,Disagree,just right,written,presentation sheets,3,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Electronic communities and social networks,Yes,No,Good,Good,Good,Agree,Neutral,just right,written,"presentation sheets,video",2.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,"Cloud, Web, Mobile",Yes,Yes,Good,Fair,Fair,Disagree,Neutral,hard,written,presentation sheets,4,No
+Informatik und Angewandte Kognitionswissenschaft,Master,"Cloud, Web, Mobile",Yes,Yes,Fair,Bad,Fair,Agree,Neutral,just right,written,presentation sheets,3.3,No
+Informatik und Angewandte Kognitionswissenschaft,Master,Game Architecture and Design,Yes,Yes,Good,Good,Good,Agree,Agree,just right,written,presentation sheets,1.7,Yes
+Informatik und Angewandte Kognitionswissenschaft,Master,Computer Graphics,Yes,No,Fair,Fair,Bad,Neutral,Neutral,hard,oral,presentation sheets,4,No
+Informatik und Angewandte Kognitionswissenschaft,Master,Cognitive Robot Systems,Yes,Yes,Good,Fair,Fair,Agree,Neutral,hard,written,presentation sheets,3.3,Yes
+Angewandte Informatik,Bachelor,Programmierparadigmen,Yes,Yes,Fair,Bad,Fair,Neutral,Disagree,hard,written,presentation sheets,3.3,No
+Angewandte Informatik,Bachelor,Automaten und Formale Sprachen,Yes,Yes,Good,Fair,Good,Agree,Neutral,just right,written,"presentation sheets,video",2,Yes
+Angewandte Informatik,Bachelor,Berechenbarkeit und Komplexität,Yes,Yes,Fair,Bad,Fair,Neutral,Neutral,hard,written,"presentation sheets,video",3.7,No
+Angewandte Informatik,Bachelor,Programmieren in C/C++,Yes,Yes,Fair,Bad,Bad,Neutral,Neutral,hard,written,presentation sheets,4,No
+Angewandte Informatik,Bachelor,Sicherheit in Kommunikationsnetzen,Yes,No,Fair,Bad,Bad,Neutral,Disagree,hard,written,presentation sheets,4,No
+Angewandte Informatik,Bachelor,Programmierparadigmen,Yes,Yes,Good,Fair,Fair,Neutral,Disagree,just right,written,presentation sheets,3,Yes
+Angewandte Informatik,Bachelor,Datenstrukturen und Algorithmen,Yes,No,Fair,Fair,Fair,Neutral,Disagree,hard,written,presentation sheets,4,No
+Angewandte Informatik,Bachelor,Sicherheit in Kommunikationsnetzen,Yes,No,Good,Fair,Fair,Neutral,Disagree,just right,written,presentation sheets,3,Yes
+Angewandte Informatik,Master,"Modellierung, Analyse, Verifikation",Yes,No,Good,Good,Good,Agree,Disagree,just right,oral,"presentation sheets,books",3.3,Yes
+Angewandte Informatik,Master,Advanced Web Technologies,Yes,Yes,Fair,Good,Good,Agree,Neutral,just right,oral,presentation sheets,2.3,Yes
+Angewandte Informatik,Master,Sensornetze,Yes,No,Good,Fair,Fair,Neutral,Neutral,hard,written,presentation sheets,3.3,No
+Angewandte Informatik,Master,Electronic communities and social networks,Yes,No,Good,Good,Good,Agree,Agree,just right,written,"presentation sheets,video",2,Yes
+Angewandte Informatik,Bachelor,Automaten und Formale Sprachen,Yes,Yes,Good,Good,Good,Neutral,Neutral,just right,written,"presentation sheets,video",1.7,Yes
+Angewandte Informatik,Bachelor,Programmierparadigmen,Yes,Yes,Fair,Fair,Fair,Neutral,Disagree,hard,written,presentation sheets,3.3,No
+Angewandte Informatik,Bachelor,Berechenbarkeit und Komplexität,Yes,Yes,Fair,Fair,Fair,Neutral,Neutral,just right,written,presentation sheets,3.3,Yes
+Angewandte Informatik,Bachelor,Rechnerarchitektur,No,No,Fair,Fair,Fair,Neutral,Neutral,just right,written,presentation sheets,3.7,No
+Angewandte Informatik,Master,Digitale Spiele,Yes,Yes,Fair,Bad,Fair,Neutral,Disagree,just right,written,presentation sheets,3,No
+Angewandte Informatik,Master,Information Mining,Yes,Yes,Fair,Fair,Good,Agree,Agree,just right,written,presentation sheets,2,Yes
+Angewandte Informatik,Master,Computer Graphics,No,No,Fair,Fair,Bad,Neutral,Neutral,hard,oral,presentation sheets,4,No
+Angewandte Informatik,Master,Optische Netze,Yes,Yes,Good,Good,Good,Neutral,Neutral,just right,written,presentation sheets,1.7,Yes
+Angewandte Informatik,Bachelor,Sicherheit in Kommunikationsnetzen,No,No,Good,Good,Good,Agree,Neutral,just right,written,presentation sheets,1.7,Yes
+Angewandte Informatik,Bachelor,Berechenbarkeit und Komplexität,Yes,Yes,Good,Fair,Good,Agree,Disagree,just right,written,"presentation sheets,video",2,Yes
+Angewandte Informatik,Bachelor,Datenstrukturen und Algorithmen,No,No,Fair,Fair,Fair,Neutral,Neutral,just right,written,presentation sheets,2.7,Yes
+Angewandte Informatik,Bachelor,Programmieren in C/C++,Yes,Yes,Fair,Good,Good,Agree,Neutral,hard,written,presentation sheets,2.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Business Communications,No,No,Good,Good,Good,Agree,Disagree,just right,oral,presentation sheets,1.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Digital Enterprise,No,No,Good,Good,Good,Agree,Disagree,just right,presentation,presentation sheets,1.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Digital Society,No,No,Good,Good,Good,Agree,Disagree,just right,presentation,presentation sheets,1.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Internet Research,No,No,Good,Good,Good,Agree,Disagree,just right,presentation,presentation sheets,1.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,"Cloud, Web, Mobile",Yes,No,Fair,Fair,Fair,Neutral,Disagree,just right,written,"presentation sheets,video",1.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Business Communications,No,No,Good,Good,Good,Agree,Agree,just right,oral,presentation sheets,1.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Internet Technologie,No,No,Good,Good,Good,Agree,Agree,just right,report/scientific paper,presentation sheets,1.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Mikroökonomie,Yes,No,Good,Good,Fair,Neutral,Disagree,just right,written,"presentation sheets,books",1,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,"Cloud, Web, Mobile",Yes,No,Fair,Good,Fair,Neutral,Agree,just right,written,"presentation sheets,books,video",1.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Kognitionspsychologie,No,No,Fair,Fair,Fair,Neutral,Disagree,just right,presentation,presentation sheets,1,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Konsumentenpsychologie,No,Yes,Good,Good,Good,Agree,Agree,just right,presentation,presentation sheets,1.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Mikroökonomie,No,Yes,Good,Fair,Fair,Neutral,Neutral,just right,written,presentation sheets,1.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,"Cloud, Web, Mobile",Yes,No,Fair,Fair,Fair,Agree,Agree,low,written,"presentation sheets,video",1.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Business Communications,No,No,Good,Good,Fair,Agree,Agree,just right,presentation,presentation sheets,1.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Internet Technologie,No,No,Fair,Fair,Fair,Neutral,Neutral,just right,presentation,presentation sheets,1.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Mikroökonomie,No,No,Fair,Fair,Fair,Neutral,Disagree,just right,written,presentation sheets,1.3,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Fortgeschrittene Programmiertechniken,Yes,No,Good,Good,Good,Agree,Neutral,just right,written,"presentation sheets,other",1,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Game Architecture,Yes,No,Good,Good,Good,Agree,Agree,hard,oral,presentation sheets,1,Yes
+International Business,Bachelor,Business English,Yes,No,Bad,Fair,Fair,Agree,Neutral,hard,oral,"presentation sheets,books",3,No
+Computer Science,Master,Fortgeschrittene Programmiertechniken,Yes,Yes,Good,Good,Good,Agree,Agree,just right,written,presentation sheets,1,Yes
+Computer Science,Master,Konsumentenpsychologische Vertiefung,Yes,No,Fair,Good,Fair,Neutral,Neutral,just right,presentation,"presentation sheets,books,other",1.3,Yes
+Angewandte Informatik,Bachelor,Programmierparadigmen,Yes,Yes,Fair,Fair,Fair,Neutral,Neutral,hard,written,presentation sheets,3,No
+Angewandte Informatik,Bachelor,Sicherheit in Kommunikationsnetzen,Yes,Yes,Bad,Bad,Bad,Neutral,Disagree,hard,written,presentation sheets,4,No
+Angewandte Informatik,Bachelor,Berechenbarkeit und Komplexität,Yes,Yes,Good,Good,Good,Neutral,Disagree,just right,written,"presentation sheets,video",2.7,Yes
+Angewandte Informatik,Bachelor,Automaten und Formale Sprachen,Yes,Yes,Good,Fair,Good,Agree,Neutral,just right,written,"presentation sheets,video",1.7,Yes
+Angewandte Informatik,Master,Peer to Peer Systeme,No,Yes,Bad,Fair,Fair,Neutral,Disagree,just right,written,presentation sheets,3,No
+Angewandte Informatik,Master,Computer Graphics,No,No,Fair,Fair,Bad,Neutral,Neutral,hard,oral,presentation sheets,4,No
+Angewandte Informatik,Master,Electronic communities and social networks,No,No,Good,Good,Good,Agree,Agree,low,written,"presentation sheets,video",2,Yes
+Angewandte Informatik,Master,"Cloud, Web, Mobile",No,No,Good,Fair,Fair,Agree,Neutral,just right,written,presentation sheets,2.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Softwaretechnik,No,No,Fair,Bad,Fair,Neutral,Neutral,hard,written,presentation sheets,3.7,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Fortgeschrittene Programmiertechniken,Yes,Yes,Good,Fair,Good,Neutral,Agree,hard,written,presentation sheets,2.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Information Mining,Yes,Yes,Good,Fair,Good,Agree,Agree,just right,written,presentation sheets,2.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Entwicklung sicherer Software,No,No,Good,Good,Good,Agree,Neutral,just right,written,presentation sheets,2.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Internet-Technologie & Web Engineering,No,No,Fair,Good,Good,Agree,Neutral,just right,written,presentation sheets,2.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Entwicklung sicherer Software,No,No,Good,Fair,Fair,Agree,Neutral,just right,written,presentation sheets,2,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Softwaretechnik,No,No,Fair,Fair,Fair,Agree,Agree,just right,written,presentation sheets,2.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,"Cloud, Web, Mobile",Yes,Yes,Good,Fair,Good,Neutral,Agree,just right,written,"presentation sheets,other",2,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Computer Graphics,No,No,Fair,Fair,Bad,Disagree,Neutral,hard,oral,presentation sheets,3.7,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Entwicklung sicherer Software,No,No,	Bad,Fair,Fair,Neutral,Neutral,just right,written,presentation sheets,3,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Electronic communities and social networks,No,No,Fair,Good,Good,Agree,Agree,low,written,"presentation sheets,video",1.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Information Mining,Yes,Yes,Fair,Fair,Fair,Agree,Neutral,just right,written,presentation sheets,2.7,Yes
+Angewandte Informatik,Master,Cognitive Robot Systems,Yes,Yes,Fair,Good,Fair,Neutral,Disagree,hard,written,presentation sheets,3.7,No
+Angewandte Informatik,Master,Logistische Informationssysteme,No,No,Fair,Fair,Fair,Neutral,Neutral,hard,written,presentation sheets,3.7,No
+Angewandte Informatik,Master,Distributed Systems,No,No,Fair,Fair,Fair,Neutral,Neutral,just right,written,"presentation sheets,video",3,Yes
+Angewandte Informatik,Master,Information Retrieval,Yes,Yes,Fair,Bad,Fair,Agree,Neutral,just right,oral,presentation sheets,2.3,Yes
+Angewandte Informatik,Master,Learning Analytics,Yes,Yes,Good,Good,Good,Agree,Agree,just right,oral,	presentation sheets,1.7,Yes
+Angewandte Informatik,Master,"Modellierung, Analyse, Verifikation",Yes,Yes,Good,Good,Good,Agree,Disagree,just right,written,"presentation sheets,books",3,Yes
+Angewandte Informatik,Master,Peer-to-Peer Systeme,No,No,Fair,Fair,Fair,Neutral,Disagree,hard,written,presentation sheets,3.3,No
+Angewandte Informatik,Master,Advanced Web Technologies,Yes,Yes,Good,Good,Good,Neutral,Agree,just right,oral,presentation sheets,2.3,Yes
+Intelligent network system,Master,Information Retrieval,Yes,Yes,Fair,Fair,Fair,Disagree,Agree,just right,oral,presentation sheets,1.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Softwaretechnik,Yes,Yes,Good,Fair,Good,Agree,Neutral,just right,written,presentation sheets,1.7,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Computer Graphics,No,No,Fair,Fair,Bad,Disagree,Neutral,hard,oral,presentation sheets,4,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Electronic communities and social networks,Yes,No,Good,Good,Good,Agree,Agree,just right,written,"presentation sheets,video",2,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Fortgeschrittene Programmiertechniken,No,No,Fair,Fair,Fair,Agree,Neutral,just right,written,presentation sheets,3,Yes
+Angewandte Informatik,Master,Interaktive Systeme,Yes,Yes,Fair,Good,Fair,Neutral,Agree,just right,written,presentation sheets,3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Internet of Things,Yes,Yes,Fair,Fair,Fair,Agree,Neutral,hard,written,presentation sheets,3.7,No
+Angewandte Kognitions- und Medienwissenschaften,Master,Information Mining,Yes,Yes,Fair,Fair,Good,Agree,Agree,just right,written,presentation sheets,2.3,Yes
+Angewandte Kognitions- und Medienwissenschaften,Master,Distributed Systems,No,No,Fair,Fair,Fair,Neutral,Neutral,just right,written,"presentation sheets,video",2.7,Yes
+Angewandte Informatik,Bachelor,Sicherheit in Kommunikationsnetzen,Yes,Yes,Fair,Fair,Fair,Neutral,Neutral,hard,written,presentation sheets,3.3,No

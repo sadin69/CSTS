@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+               	<!-- Required meta tags -->
+        <meta http-equiv="Content-Type" conten="test/html; charset=utf-8"/>
+		
+		<!-- CSS Files -->
+        <link rel="stylesheet" href="assets/js/libraries/c3-0.7.1/c3.min.css">
+        <link rel="stylesheet" href="assets/css/libraries/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/overview_page.css">
+        <link rel="stylesheet" href="assets/css/top_bar.css">
+        <link rel="stylesheet" href="assets/css/overview_page.css">
+        <link rel="stylesheet" href="assets/css/detail_page.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+		<!-- JS Files -->
+        <script type="text/javascript" src="assets/js/libraries/d3.v5.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/c3-0.7.1/c3.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/jquery-3.3.1.slim.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/popper.min.js"></script>
+        <script type="text/javascript" src="assets/js/libraries/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/DropdownService.js"></script>
+        <script type="text/javascript" src="assets/js/Helper.js"></script>
+        <script type="text/javascript" src="assets/js/PieChartService.js"></script>
+        <script type="text/javascript" src="modernizr.js"></script>
+        
+        <title>G3D3</title>
+    </head>
+    
+    
+    <body>
+        <nav class="navbar navbar-expand-lg static-top row">
+            <div class="navbar-brand">
+                <a onclick="location.href=buildHrefToIndex()"><img alt="Logo" src="assets/images/logo_v1.png"></a>
+                <span>Course Selection Support</span>
+            </div>
+        </nav>
+        <div class="container-fuid">
+            <div class="row no-gutters">
+
+<style>
+
+body {
+  text-align: center;
+}
+
+svg {
+  font: 10px sans-serif;
+}
+
+</style>
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script>
+
+// Define the margin, radius, and color scale. Colors are assigned lazily, so
+// if you want deterministic behavior, define a domain for the color scale.
+var m = 1,
+    r = 100,
+    z = d3.scale.category20c();
+
+// Define a pie layout: the pie angle encodes the count of student. Since our
+// data is stored in CSV, the counts are strings which we coerce to numbers.
+var pie = d3.layout.pie()
+    .value(function(d) { return +d.count; })
+    .sort(function(a, b) { return b.count - a.count; });
+
+// Define an arc generator. Note the radius is specified here, not the layout.
+var arc = d3.svg.arc()
+    .innerRadius(r / 2)
+    .outerRadius(r);
+
+// Load the uni data asynchronously.
+d3.csv("assets/csv/dataset2.csv", function(error, data) {
+  if (error) throw error;
+
+  var uni = d3.nest()
+      .key(function(d) { return d.origin; })
+      .entries(data);
+
+  // Insert an svg element (with margin) for each subject in our dataset. A
+  // child g element translates the origin to the pie center.
+  var svg = d3.select("body").selectAll("div")
+      .data(uni)
+    .enter().append("div") 
+      .style("display", "inline-block")
+      .style("width", (r + m) * 3 + "px")
+      .style("height", (r + m) * 3 + "px")
+    .append("svg")
+      .attr("width", (r + m) * 2)
+      .attr("height", (r + m) * 2)
+    .append("g")
+      .attr("transform", "translate(" + (r + m) + "," + (r + m) + ")");
+
+  // Add a label for the subject. The `key` comes from the next operator.
+  svg.append("text")
+      .attr("dy", ".35em")
+      .attr("text-anchor", "middle")
+      .text(function(d) { return d.key; });
+
+  
+  var g = svg.selectAll("g")
+      .data(function(d) { return pie(d.values); })
+    .enter().append("g");
+
+  // Add a colored arc path, with a mouseover title showing the count.
+  g.append("path")
+      .attr("d", arc)
+      .style("fill", function(d) { return z(d.data.carrier); })
+    .append("title")
+      .text(function(d) { return d.data.carrier + ": " + d.data.count; });
+
+  // Add a label to the larger arcs, translated to the arc centroid and rotated.
+  g.filter(function(d) { return d.endAngle - d.startAngle > .2; }).append("text")
+      .attr("dy", ".35em")
+      .attr("text-anchor", "middle")
+      .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")rotate(" + angle(d) + ")"; })
+      .text(function(d) { return d.data.carrier; });
+
+  // Computes the label angle of an arc, converting from radians to degrees.
+  function angle(d) {
+    var a = (d.startAngle + d.endAngle) * 90 / Math.PI - 90;
+    return a > 90 ? a - 180 : a;
+  }
+});
+
+</script>
+<input type="button" class="btn btn-outline-primary btn-lg" value="Back" onclick="window.location.href='teacher.html'" />  
+
+</html>

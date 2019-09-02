@@ -1,0 +1,39 @@
+.c3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard__course-info__box {
+    border: 0.1rem solid #F4F4F4;
+    padding: 1rem;
+}
+
+.recommendationRate {
+    font-size: 2rem;
+    color: orange;
+}
+
+.excercises, .bonusPoints {
+    color: #2CA02C;
+}
+
+span {
+    font-weight: bold;
+}
+
+.small-info {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.btn-link {
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+}
+
+.btn-link:hover {
+    color: #be0c21;
+}
