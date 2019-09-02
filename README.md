@@ -72,9 +72,26 @@ The projects main purpose was the visualization of data. In accord with the What
 
 ![Comparison table screenshot](https://github.com/Lullu08/Lullu08.github.io/blob/master/assets/images/comparison_table.png)
 
+
+
 **6) Bar and Pie Chart: Exam Evulation**
 
 ![Bar chart and Pie chart screenshot](https://github.com/sadin69/CSTS/blob/master/assets/images/Exam_evu.png)
+
+
+
+
+**7) Pie Chart: Yearly Subject enrolled**
+
+![Pie chart screenshot](https://github.com/sadin69/CSTS/blob/master/assets/images/Sub_enr.png)
+
+
+
+**8) Bar Chart: Course enrollment**
+
+![Bar chart ](https://github.com/sadin69/CSTS/blob/master/assets/images/Course_inf.png)
+
+
 
 ## Run the project
 The most easiest way to run this project locally you only need to clone this repository and run *http-server* the corresponding folder on your command line. For this to work you have to have [npm/Node.js](https://www.npmjs.com/get-npm) and the [http-server package](https://www.npmjs.com/package/http-server) installed. The project should then be running on [http://localhost:8080](http://localhost:8080).
