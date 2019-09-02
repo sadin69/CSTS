@@ -74,7 +74,7 @@ The projects main purpose was the visualization of data. In accord with the What
 
 **6) Bar and Pie Chart: Exam Evulation**
 
-![Bar chart and Pie chart screenshot](https://github.com/sadin69/CSTS/tree/master/assets/images/exam_evu.png)
+![Bar chart and Pie chart screenshot](https://github.com/sadin69/CSTS/tree/master/assets/images/exam_evu)
 
 ## Run the project
 The most easiest way to run this project locally you only need to clone this repository and run *http-server* the corresponding folder on your command line. For this to work you have to have [npm/Node.js](https://www.npmjs.com/get-npm) and the [http-server package](https://www.npmjs.com/package/http-server) installed. The project should then be running on [http://localhost:8080](http://localhost:8080).
